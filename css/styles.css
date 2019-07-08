@@ -75,7 +75,7 @@ h3 {
     color: #385898;
 }
 
-container{
+section{
     width: 60%;
     border: solid 1px grey;
     display: block;
@@ -128,3 +128,40 @@ container{
     line-height: 1.38;
     margin: 8px;
 }
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin:10px 0 10px 0;
+  }
+  input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin:10px 0 10px 0;
+  }
+  input[type=submit] {
+    background-color: #4267b2; 
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 8px 16px;
+    margin: 16px 0;
+    width: auto;
+    border-radius: none;
+    font-size: 16px;
+  }

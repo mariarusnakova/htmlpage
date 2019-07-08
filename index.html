@@ -10,7 +10,7 @@
 
   <body>
     <header><h1>Facebook</h1></header>
-    <container class="simple-box">
+    <section class="simple-box">
       <div class="inner-box">
         <span>Create status</span>
       </div>
@@ -22,17 +22,34 @@
         ></textarea>
         <a target="_self" href="#" class="button">Share »</a>
       </div>
-    </container>
-    <container class="simple-box">
+    </section>
+    <section class="simple-box">
       <div class="inner-box">
         <span>Simple timeline</span>
       </div>
       <div>
-            <h3 class="">Prirodna liecba, babske rady</h3>
+            <h3 class="">Prirodna liecba, babske rady</h3ą>
             <p>Dobrý večer, prosím o radu. Muž pred mesiacom spadol na bicykli na dlaň a stále sa mu to nezahojilo, lekárka mu po 2 týždňoch vybrala kúsok dreva z rany. Asi mu tam ešte niečo zostalo, len to nemôže nájsť. Neviete o niečom čo by mu vytiahlo to cudzie teleso z rany... Stále tam má zápal.Dakujem!</p>
 
       </div>
     
-    </container>
+    </section>
+    <section class="simple-box">
+            <div class="inner-box">
+              <form>
+<fieldset>
+    <legend>Login info</legend>
+                   <label for ="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name" ></input><br/>
+                    Password:
+                    <input type="password" id="pwd" name="userPassword" ></input><br/>
+                </filedset>
+                  Gender:
+                <input type="radio" id="male" name="gender" value="male" checked>male</input>
+                <input type="radio" id="female" name="gender" value="female">female</input><br/>
+                <input type="submit" id="submit" value="Submit Me Please"></input>
+              </form>
+            </div>
+          </section>
   </body>
 </html>
